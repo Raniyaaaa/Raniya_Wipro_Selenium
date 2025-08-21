@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="288.663" tests="9" skipped="0" failures="0" errors="0" timestamp="2025-08-21T12:05:58.714741300Z">
+<testcase classname="Add Product to Cart" name="Add a product to cart after login" time="62.135">
+<system-out><![CDATA[
+Given User is logged into eBay for adding...................................passed
+When User adds a product to cart............................................passed
+Then Product should be added to cart........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="View All Categories" name="Display all categories" time="22.813">
+<system-out><![CDATA[
+Given User launches the eBay application allcategory........................passed
+When User views all categories..............................................passed
+Then All categories should be displayed.....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Change Current Address in eBay Account" name="Login and change the current address" time="48.146">
+<system-out><![CDATA[
+Given User is logged into eBay for addresschange............................passed
+When User changes the current address.......................................passed
+Then Address should be updated successfully.................................passed
+]]></system-out>
+</testcase>
+<testcase classname="eBay Login" name="Login with valid credentials - #1.1" time="15.069">
+<system-out><![CDATA[
+Given User launches the eBay application for login..........................passed
+When User logs in with username raniya182002@gmail.com and password Raniya@123.passed
+Then Login should be successful.............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Search Products" name="Search multiple products" time="25.722">
+<system-out><![CDATA[
+Given User launches the eBay application....................................passed
+When User searches multiple products........................................passed
+Then Products should be searched............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Change Language" name="Change site language - #1.1" time="16.724">
+<system-out><![CDATA[
+Given User launches the eBay application language...........................passed
+When User changes language Spain............................................passed
+Then Language should be changed.............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Remove Product from Cart" name="Remove a product from cart after login" time="38.997">
+<system-out><![CDATA[
+Given User is logged into eBay for removing.................................passed
+When User removes the product from cart.....................................passed
+Then Cart should be empty after removal.....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Right Click on Product" name="Right click on product image" time="48.458">
+<system-out><![CDATA[
+Given User launches the eBay application rightclick.........................passed
+When User right clicks on a product image...................................passed
+Then Right click action should be performed.................................passed
+]]></system-out>
+</testcase>
+<testcase classname="View Single Category" name="Display single category" time="9.463">
+<system-out><![CDATA[
+Given User launches the eBay application specific...........................passed
+When User selects specific category.........................................passed
+Then Specific category should be displayed..................................passed
+]]></system-out>
+</testcase>
+</testsuite>
